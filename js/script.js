@@ -73,8 +73,6 @@ function onBlurInputEdit(value, index) {
 
     const indexDataTodo = dataTodo.indexOf(value);
     dataTodo[indexDataTodo] = editTodo;
-
-    console.log(dataTodo);
 }
 
 function deleteTodo(index) {
